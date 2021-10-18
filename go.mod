@@ -1,4 +1,4 @@
-module github.com/use-go/onvif
+module github.com/vitaly-kashtalyan/onvif
 
 go 1.15
 
@@ -7,5 +7,6 @@ require (
 	github.com/elgs/gostrgen v0.0.0-20161222160715-9d61ae07eeae
 	github.com/gin-gonic/gin v1.6.2
 	github.com/gofrs/uuid v3.2.0+incompatible
+	github.com/use-go/onvif v0.0.1
 	golang.org/x/net v0.0.0-20200425230154-ff2c4b7c35a0
 )
