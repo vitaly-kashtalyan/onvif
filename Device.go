@@ -4,17 +4,16 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
+	"github.com/beevik/etree"
+	"github.com/use-go/onvif/device"
+	"github.com/use-go/onvif/gosoap"
+	wsdiscovery "github.com/use-go/onvif/ws-discovery"
+	"github.com/vitaly-kashtalyan/onvif/networking"
 	"io/ioutil"
 	"net/http"
 	"reflect"
 	"strconv"
 	"strings"
-
-	"github.com/beevik/etree"
-	"github.com/use-go/onvif/device"
-	"github.com/use-go/onvif/gosoap"
-	"github.com/use-go/onvif/networking"
-	wsdiscovery "github.com/use-go/onvif/ws-discovery"
 )
 
 //Xlmns XML Scheam
